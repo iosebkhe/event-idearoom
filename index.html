@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Event idearoom</title>
+	<style type="text/css">
+		img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 .07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel='stylesheet' id='wp-block-library-css' href="./wp-includes/css/dist/block-library/style.min.css"
+				type='text/css' media='all' />
+	<link rel='stylesheet' id='sansara-icons-css' href='./wp-content/themes/sansara/css/iconfont.css' type='text/css'
+				media='all' />
+	<link rel='stylesheet' id='font-awesome-css'
+				href="./wp-content/plugins/unyson/framework/static/libs/font-awesome/css/font-awesome.min.css" type='text/css'
+				media='all' />
+	<link rel='stylesheet' id='sansara-style-default-css' type='text/css' href="./wp-content/themes/sansara/style.css"
+				media='all' />
+	<link rel='stylesheet' id='vc_font_awesome_5_shims-css'
+				href="./wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/v4-shims.min.css" type='text/css'
+				media='all' />
+	<link rel='stylesheet' id='vc_font_awesome_5-css'
+				href="./wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/all.min.css" type='text/css'
+				media='all' />
+	<link rel='stylesheet' id='sansara-frontend-grid-css' href="./wp-content/themes/sansara/css/frontend-grid.css"
+				type='text/css' media='all' />
+	<link rel='stylesheet' id='sansara-circle-animations-css' href="./wp-content/themes/sansara/css/circle_animations.css"
+				type='text/css' media='all' />
+	<link rel='stylesheet' id='sansara-style-css' href="./wp-content/themes/sansara/css/style.css" type='text/css'
+				media='all' />
+	<link rel='stylesheet' id='pt-addons-css' href="./wp-content/plugins/pt-sansara-shortcodes/include/css/pt-addons.css"
+				type='text/css' media='all' />
+	<link rel='stylesheet' id='sansara-mobile-css' href="./wp-content/themes/sansara/css/mobile.css" />
+	<link rel='stylesheet' id='pixproof_inuit-css' href="./wp-content/plugins/pixproof/assets/css/inuit.css" />
+	<link rel='stylesheet' id='pixproof_magnific-popup-css'
+				href="./wp-content/plugins/pixproof/assets/css/mangnific-popup.css" />
+
+	<script type='text/javascript' src='https://code.jquery.com/jquery-1.12.4.min.js?ver=1.12.4'
+					id='jquery-core-js'></script>
+	<script type='text/javascript'
+					src='https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.1/jquery-migrate.min.js?ver=1.4.1'
+					id='jquery-migrate-js'></script>
+	<noscript>
+		<style>
+			.woocommerce-product-gallery {
+				opacity: 1 !important;
+			}
+		</style>
+	</noscript>
+	<link rel="icon" href="" sizes="32x32" />
+	<link rel="icon" href="" sizes="192x192" />
+	<link rel="apple-touch-icon" href="" />
+	<meta name="msapplication-TileImage" content="" />
+	<style id="sansara_theme-dynamic-css" title="dynamic-css" class="redux-options-output">
+		.site-header .logo img,
+		.side-header .logo img,
+		.site-header .logo a,
+		.side-header .logo a {
+			width: 120px;
+		}
+
+		body {
+			font-family: "TBC-CAPS", sans-serif;
+			font-weight: 400;
+			font-size: 16px;
+		}
+
+		h1,
+		.h1 {
+			font-family: "TBC-CAPS", sans-serif;
+			font-weight: 700;
+			font-size: 60px;
+		}
+
+		h2,
+		.h2 {
+			font-family: "TBC-CAPS", sans-serif;
+			font-weight: 700;
+			font-size: 48px;
+		}
+
+		h3,
+		.h3 {
+			font-family: "TBC-CAPS", sans-serif;
+			font-weight: 700;
+			font-size: 36px;
+		}
+
+		h4,
+		.h4 {
+			font-family: "TBC-CAPS", sans-serif;
+			font-weight: 700;
+			font-size: 30px;
+		}
+
+		h5,
+		.h5 {
+			font-family: "TBC-CAPS", sans-serif;
+			font-weight: 700;
+			font-size: 24px;
+		}
+
+		h6,
+		.h6 {
+			font-family: "TBS-CAPS", sans-serif;
+			font-weight: 700;
+			font-size: 18px;
+		}
+
+		.site-footer .logo img {
+			width: 96px;
+		}
+	</style>
+	<style type="text/css" data-type="vc_shortcodes-custom-css">
+		.vc_custom_1528802343854 {
+			padding-bottom: 25px !important;
+		}
+
+		.vc_custom_1528805558428 {
+			padding-top: 25px !important;
+		}
+
+		.vc_custom_1528793578152 {
+			margin-bottom: 0px !important;
+		}
+
+		.vc_custom_1528793611384 {
+			margin-bottom: 25px !important;
+		}
+
+		.vc_custom_1530604746000 {
+			margin-bottom: 25px !important;
+		}
+	</style><noscript>
+		<style>
+			.wpb_animate_when_almost_visible {
+				opacity: 1;
+			}
+		</style>
+	</noscript>
+</head>
+
+<body class="hpage-template page-template-template-landing page-template-template-landing-php page page-id-572 theme-sansara woocommerce-js header-type-logo_left header-nav-type-visible_menu header-space-yes header-container-container popup_download_yes project_details_yes wrap_lines_no mobile_no site-dark chrome windows wpb-js-composer js-comp-ver-6.6.0 vc_responsive cursor-disabled loaded"
+			style="height: 100vh !important; overflow: hidden; position: relative;">
+	<div id="all" class="site">
+		<div class="mouse-cursor"></div>
+		<div class="preloader-default-area">
+			<div class="preloader-default">
+				<div class="label">IdeaRoom</div>
+			</div>
+			<div class="line"></div>
+		</div>
+		<!-- მობილურის ჰედერი -->
+		<header class="site-header with-side header_left_side dark main-row">
+			<div class="container">
+				<div class="logo">
+					<a href="./index.html">
+						<img class="light l-b" src="./wp-content/themes/sansara/images/logo small.png" alt="Sansara">
+						<img class="dark l-b" src="" alt="Sansara">
+					</a>
+				</div>
+				<div class="fr">
+					<nav class="navigation hidden-menu">
+						<ul id="menu-navigation" class="menu">
+							<li id="menu-item-275"
+									class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor ">
+								<a href="#"><span>მთავარი</span></a>
+							</li>
+							<li id="menu-item-276"
+									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-276">
+								<a href="./gallery/gallery-photo.html"><span>ფოტო</span></a>
+							</li>
+							<li id="menu-item-279"
+									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-279">
+								<a href="./gallery/gallery-video.html"><span>ვიდეო</span></a>
+							</li>
+							<li id="menu-item-284"
+									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-284">
+								<a href="./contact-2/contact.html"><span>კონტაქტი</span></a>
+							</li>
+						</ul>
+					</nav>
+					<div class="butter-button hidden_menu">
+						<div></div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- დესკტოპის ჰედერი  მარცხენა -->
+		<div class="side-header main-row header_left_side dark">
+			<div class="side-nav-button">
+				<div></div>
+			</div>
+			<div class="bottom">
+				<div class="social-buttons">
+					<a href="#" target="_self"><i class="fa fa-facebook"></i> <span>Facebook</span></a><a href="#"
+						 target="_self"><i class="fa fa-twitter"></i> <span>Twitter</span></a><a href="#" target="_self">
+						<i class="fa fa-instagram"></i> <span>Instagram</span></a>
+				</div>
+			</div>
+			<span class="dec-line"></span>
+		</div>
+
+		<!-- დესკტოპის ჰედერი მარჯვენა -->
+		<div class="side-header-right main-row header_left_side dark">
+			<div class="logo" style="top: 50% !important; ">
+				<a href="./index.html" style="height: auto !important;">
+					<img class="light l-b" src="./wp-content/themes/sansara/images/logo small.png" alt="Event Idearoom">
+				</a>
+			</div>
+		</div>
+
+
+		<div class="side-navigation-block">
+			<div class="close ui-interface-delete"></div>
+			<div class="wrap">
+				<div class="cell">
+					<nav class="side-navigation">
+						<ul id="menu-side-navigation" class="menu">
+							<li id="menu-item-834"
+									class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-834">
+								<a href="./index.html"><span>მთავარი</span></a>
+							</li>
+							<li id="menu-item-840" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-840">
+								<a href="./gallery/gallery-photo.html"><span>ფოტო</span></a>
+							</li>
+							<li id="menu-item-870" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-870">
+								<a href="./gallery/gallery-video.html"><span>ვიდეო</span></a>
+							</li>
+							<li id="menu-item-876" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-876">
+								<a href="./contact-2/contact.html"><span>კონტაქტი</span></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="social-buttons-text">
+					<a href="#" target="_self"><i class="fa fa-facebook"></i> <span>Facebook</span></a><a href="#"
+						 target="_self"><i class="fa fa-twitter"></i> <span>Twitter</span></a><a href="#" target="_self"><i
+							 class="fa fa-instagram"></i> <span>Instagram</span></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="header-space hide"></div>
+		<div class="search-popup main-row">
+			<div class="close ui-interface-delete"></div>
+		</div>
+
+		<main class="main-row">
+			<!-- მთავარი დივი -->
+			<div class="">
+
+				<div class="video-box">
+					<video src="./wp-content/themes/sansara/videos/G-&-J-Wedding-Day.mp4" autoplay loop style="width: 100%; display: block;
+								 height: 100vh;
+								 width: 100%;
+								 object-fit: cover;"></video>
+				</div>
+			</div>
+		</main>
+	</div>
+
+
+	<link rel='stylesheet' id='owl-carousel-css-css' href='./wp-content/themes/sansara/css/owl.carousel.css'
+				type='text/css' media='all' />
+	<script type='text/javascript' src="./wp-content/plugins/pt-sansara-shortcodes/include/js/plugins.js"
+					id='sansara-plugins-js'></script>
+	<script type='text/javascript' src="./wp-includes/js/dist/url.min.js" id='wp-url-js'></script>
+
+	<script type='text/javascript' src="./wp-includes/js/dist/hooks.min.js" id='wp-hooks-js'></script>
+
+
+	<script type='text/javascript' src="./wp-content/themes/sansara/js/skip-link-focus-fix.js"
+					id='sansara-skip-link-focus-fix-js'></script>
+
+	<script type='text/javascript' src="./wp-includes/js/imagesloaded.min.js" id='imagesloaded-js'></script>
+	<script type='text/javascript' src="./wp-content/themes/sansara/js/script.js" id='sansara-script-js'></script>
+	<script type='text/javascript' id='sansara-script-js-after'>
+		jQuery(document).ready(function (jQuery) {
+			jQuery('.fc-area-5b1a8a9d8d2d5').pt_full_page();
+		});
+		jQuery(document).ready(function (jQuery) {
+			jQuery('.banner-5b1a8ab98fd52 .banner').each(function () {
+				var head_slider = jQuery(this),
+					head_slider_area = head_slider.parent();
+
+				head_slider.on('initialized.owl.carousel', function (property) {
+					var current = property.item.index;
+					if (jQuery(property.target).find('.owl-item').eq(current).find('video').length > 0) {
+						jQuery(property.target).find('.owl-item').eq(current).find('video').get(0).play();
+					}
+				});
+
+				if (jQuery(this).find('.item').length > 1) {
+
+					head_slider.find('.item').each(function () {
+						var l_count = head_slider.find('.item').length,
+							l_width = head_slider_area.find('.slider-navigation-style2 .lines').width(),
+							l_timeout = head_slider_area.find('.slider-navigation-style2 .lines').data('timeout');
+						head_slider_area.find('.slider-navigation-style2 .lines').append('<div class="line"><div></div></div>');
+						head_slider_area.find('.slider-navigation-style2 .lines .line').css('width', parseInt((l_width / l_count) - 8)).find('div').css('transition-duration', l_timeout + 'ms');
+					});
+
+					head_slider.on('initialized.owl.carousel translated.owl.carousel', function (event) {
+						var index = event.item.index - 1,
+							count = event.item.count;
+
+						if (index > count) {
+							index = 1;
+						}
+						if (index == 0) {
+							index = count;
+						}
+						head_slider_area.find('.slider-navigation .count').html('<span>' + index + '</span> / <span>' + count + '</span>');
+
+						head_slider_area.find('.slider-navigation > div > .line').addClass('go').removeClass('reset');
+
+						if (head_slider.find('.owl-item.active .item').hasClass('white')) {
+							head_slider_area.addClass('current-white').removeClass('current-black');
+						}
+						if (head_slider.find('.owl-item.active .item').hasClass('black')) {
+							head_slider_area.addClass('current-black').removeClass('current-white');
+						}
+
+						head_slider_area.find('.slider-navigation .lines .line').eq(index - 1).prevAll().addClass('prev').removeClass('reset go');
+						head_slider_area.find('.slider-navigation .lines .line').eq(index - 1).addClass('go').removeClass('reset prev').nextAll().addClass('reset').removeClass('go prev');
+					});
+
+					head_slider_area.on('click', '.lines .line', function () {
+						head_slider.trigger('to.owl.carousel', [jQuery(this).index()]);
+					});
+
+					head_slider.on('translate.owl.carousel', function (event) {
+						var index = event.item.index - 1,
+							count = event.item.count;
+
+						if (index > count) {
+							index = 1;
+							head_slider_area.find('.slider-navigation .lines .line').eq(0).addClass('reset').removeClass('prev go');
+						}
+						if (index == 0) {
+							index = count;
+						}
+						head_slider_area.find('.slider-navigation > div > .line').addClass('reset').removeClass('go');
+					});
+
+					head_slider_area.find('.slider-navigation .prev').on('click', function () {
+						head_slider.trigger('prev.owl.carousel');
+					});
+
+					head_slider_area.find('.slider-navigation .next').on('click', function () {
+						head_slider.trigger('next.owl.carousel');
+					});
+
+					head_slider.addClass('owl-carousel').owlCarousel({
+						loop: true,
+						items: 1,
+						nav: false,
+						dots: false,
+						autoplay: true,
+						autoplayTimeout: 5000,
+						autoplayHoverPause: false,
+						smartSpeed: 300,
+					});
+
+					head_slider.on('changed.owl.carousel translated.owl.carousel dragged.owl.carousel', function (property) {
+						var current = property.item.index;
+						head_slider.find('.owl-item.active').each(function () {
+							control_video(jQuery(this).find('.video-wrap .video'), 'play');
+						});
+						head_slider.find('.owl-item:not(.active)').each(function () {
+							control_video(jQuery(this).find('.video-wrap .video'), 'pause');
+						});
+					});
+				} else {
+					control_video(head_slider.find('.video-wrap .video'), 'play');
+				}
+			});
+		});
+		jQuery(document).ready(function (jQuery) {
+			jQuery('.fc-area-5b1e5018c70cd').each(function () {
+				var this_area = jQuery(this),
+					slider = this_area.find('.portfolio-slider'),
+					item_slider = this_area.find('.ps-thumb-slider'),
+					flag = false;
+
+				slider.find('.num').each(function (index) {
+					jQuery(this).text(leadZero(index + 1));
+				});
+
+
+				if (slider.find('.ps-item').length > 1) {
+
+					slider.on('initialized.owl.carousel translated.owl.carousel', function () {
+						if (flag != true) {
+							var active_el = slider.find('.owl-item.active'),
+								prev = this_area.find('.ps-slider-arrow.prev'),
+								next = this_area.find('.ps-slider-arrow.next'),
+								title_prev = active_el.prev().find('.ps-item').data('title'),
+								title_next = active_el.next().find('.ps-item').data('title'),
+								img_prev = active_el.prev().find('.ps-item').data('image'),
+								img_next = active_el.next().find('.ps-item').data('image');
+
+							prev.find('.image').css('background-image', 'url(' + img_prev + ')');
+							next.find('.image').css('background-image', 'url(' + img_next + ')');
+
+							prev.find('.title span').text(title_prev);
+							next.find('.title span').text(title_next);
+
+							setTimeout(function () {
+								prev.removeClass('out');
+								next.removeClass('out');
+							}, 300);
+						} else {
+							flag = false;
+						}
+					});
+
+					slider.addClass('owl-carousel').owlCarousel({
+						loop: true,
+						items: 1,
+						nav: false,
+						dots: true,
+						autoplay: false,
+						navText: false,
+						touchDrag: false,
+						mouseDrag: false,
+						smartSpeed: 1500,
+						margin: 30,
+						animateIn: 'fadeIn',
+						animateOut: 'fadeOut'
+					});
+
+					item_slider.on('translated.owl.carousel translate.owl.carousel', function () {
+						flag = true;
+					});
+
+					slider.on('translate.owl.carousel', function () {
+						if (flag != true) {
+							var prev = this_area.find('.ps-slider-arrow.prev'),
+								next = this_area.find('.ps-slider-arrow.next');
+
+							prev.addClass('out');
+							next.addClass('out');
+						} else {
+							flag = false;
+						}
+					});
+
+					jQuery('.ps-slider-arrow.prev').on('click', function () {
+						slider.trigger('prev.owl.carousel');
+					});
+
+					jQuery('.ps-slider-arrow.next').on('click', function () {
+						slider.trigger('next.owl.carousel');
+					});
+				}
+
+				if (item_slider.length > 0) {
+					item_slider.addClass('owl-carousel').owlCarousel({
+						loop: false,
+						items: 1,
+						nav: false,
+						dots: true,
+						autoplay: false,
+						navText: false,
+					});
+				}
+
+			});
+		});
+	</script>
+	<script type='text/javascript' src='./wp-content/plugins/pt-sansara-shortcodes/include/js/load-posts.js'
+					id='pt-load-posts-js'></script>
+	<script type='text/javascript' src='./wp-content/plugins/pt-sansara-shortcodes/include/js/scripts.js'
+					id='pt-scripts-js'></script>
+	<script type='text/javascript' src="./wp-includes/js/wp-embed.min.js" id='wp-embed-js'></script>
+	<script type='text/javascript' src="./wp-content/plugins/pt-sansara-shortcodes/include/js/jquery.touchSwipe.min.js"
+					id='touchSwipe-js'></script>
+	<script type='text/javascript'
+					src='https://promo-theme.com/sansara/wp-content/themes/sansara/js/owl.carousel.min.js?ver=1'
+					src="./wp-content/themes/sansara/js/owl.carousel.min.js" id='owl-carousel-js-js'></script>
+
+</body>
+
+</html>
